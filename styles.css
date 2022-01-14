@@ -23,11 +23,11 @@ nav a{
 .information{
     margin-top: 210px;
    display: flex;
-   
+   margin-bottom: 200px;
 }
 
 .top-heading{
-    font-size: 52px;
+    font-size: 55px;
     font-weight: 700;
     line-height: 70px;
 }
@@ -42,7 +42,14 @@ nav a{
     background-color: #E02C6D;
     padding: 10px 24px 10px 24px ;
     border-radius: 41px;
-    
-
 }
+/*------------ first top end -----------------*/
 
+
+/* Company logo */
+
+.logos{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin:0px 150px;
+}
