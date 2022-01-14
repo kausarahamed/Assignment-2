@@ -1,0 +1,48 @@
+body{margin: 35px;}
+header{
+    display: flex;  
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.left{
+    font-size: 1.3em;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+    
+}
+/* frist top */
+
+.information{
+    margin-top: 210px;
+   display: flex;
+   
+}
+
+.top-heading{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.paragraph{
+    width: 80%;
+}
+.button{
+   
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    padding: 10px 24px 10px 24px ;
+    border-radius: 41px;
+    
+
+}
+
