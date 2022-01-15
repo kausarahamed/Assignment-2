@@ -111,3 +111,31 @@ font-weight: bold;
 font-size: 14px;
 line-height: 1.1m;
 }
+
+.see-more>a{
+ text-decoration: none;
+ color: #E02C6D;
+ padding-left: 85%;
+}
+/* middle part end */
+
+
+
+/* fotter start */
+footer{
+    background-color: #0A0826;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    padding: 35px 0;
+    line-height: 10px;
+}
+/* footer end */
+
+@media (max-width: 520px) {
+  .first,.information{
+      display: flex;
+      flex-direction: column;
+      
+  }
+}
