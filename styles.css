@@ -132,10 +132,39 @@ footer{
 }
 /* footer end */
 
-@media (max-width: 520px) {
+@media (max-width: 560px) {
   .first,.information{
       display: flex;
       flex-direction: column;
       
   }
+  .poducts{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
 }
+/* extra */
+.flex-banner{
+    display: flex;
+    height: 5%;
+    margin-right: 5%;   
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-width img{
+    width: 60%;
+    padding-left: 15%;
+}
+.mar{
+    margin-top: 7%;
+    margin-right: 5%;
+    margin-bottom: 5%;}
+
+    /* extra end */
+    .last{
+        padding-left: 40%;
+    }
