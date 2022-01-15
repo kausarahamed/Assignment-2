@@ -25,6 +25,10 @@ nav a{
    display: flex;
    margin-bottom: 200px;
 }
+.information img{
+    width: 440px;
+height: 414px;
+}
 
 .top-heading{
     font-size: 55px;
@@ -46,10 +50,54 @@ nav a{
 /*------------ first top end -----------------*/
 
 
-/* Company logo */
+/*------------ Company logo ------------*/
 
 .logos{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    margin:0px 150px;
+    margin:40px 150px;
+}
+/*----------- Company logo end ---------*/
+
+
+/*-------------- 
+--------------Middle part start ------------*/
+.section-title{
+    text-align: center;
+}
+.poducts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+ .box{
+  align-items: center;
+  margin-top: 30px;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 7px;
+  
+} 
+.box img{
+    width: 100%;
+}
+
+.product-title{
+    line-height: 5px;
+}
+/* .product-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+.fa-star{
+   font-size: 12px;
+}
+
+.fa-star.filled{
+    color: #FB8200;   
+}
+
+.fa-star.empty{
+    color: #AEAEAE;
 }
