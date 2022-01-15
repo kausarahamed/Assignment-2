@@ -38,6 +38,7 @@ height: 414px;
 
 .paragraph{
     width: 80%;
+    
 }
 .button{
    
@@ -64,6 +65,8 @@ height: 414px;
 --------------Middle part start ------------*/
 .section-title{
     text-align: center;
+    margin-top: 150px;
+    margin-bottom: 30px;
 }
 .poducts{
     display: grid;
@@ -100,4 +103,11 @@ height: 414px;
 
 .fa-star.empty{
     color: #AEAEAE;
+}
+p{
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.1m;
 }
